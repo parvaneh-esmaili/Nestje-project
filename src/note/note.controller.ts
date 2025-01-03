@@ -1,4 +1,4 @@
-import { Controller,Get, Post, Body } from '@nestjs/common';
+import { Controller,Get, Post, Body} from'@nestjs/common';
 import { NoteService } from './note.service';
 
 @Controller('notes')
@@ -6,7 +6,7 @@ export class NoteController {
   constructor(private readonly noteService: NoteService) {}
   @Get()
   getRoot() {
-    return { message: 'Welcome to the API!' };
+    return { message: 'API!' };
   }
 
   @Post()

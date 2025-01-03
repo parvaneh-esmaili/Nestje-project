@@ -14,6 +14,4 @@ import { NoteModule } from './note/note.module';
     NoteModule,
   ],
 })
-export class AppModule {
-  
-}
+export class AppModule { }
